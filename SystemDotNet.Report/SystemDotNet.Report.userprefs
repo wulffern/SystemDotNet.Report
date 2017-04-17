@@ -1,19 +1,10 @@
 ﻿<Properties StartupItem="SystemDotNet.Report.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/FileTypes/FileFactory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PostProcessing/FFT.cs">
     <Files>
       <File FileName="PostProcessing/FFT.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/PostProcess/PPGFFT.cs" Line="25" Column="17" />
       <File FileName="MainForm1.cs" Line="1" Column="1" />
       <File FileName="ReportNode.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/PostProcess/PostProcessBase.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/PostProcess/PostProcessGraphBase.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/PostProcess/PostProcessGraphLoad.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/PostProcess/PPGAutoCorrelation.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/PostProcess/PPMinMax.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/PostProcess/PPRMS.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/FileTypes/delegates.cs" Line="1" Column="1" />
-      <File FileName="../../../ngl/NextGenLab.Chart/NextGenLab.Chart/FileTypes/FileFactory.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

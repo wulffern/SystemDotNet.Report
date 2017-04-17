@@ -1,0 +1,3 @@
+[submodule "NextGenLab.Chart"]
+	path = NextGenLab.Chart
+	url = https://github.com/wulffern/NextGenLab.Chart.git

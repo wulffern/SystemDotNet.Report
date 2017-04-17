@@ -42,6 +42,7 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ReleaseVersion>0.2</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -301,7 +302,7 @@
       <Project>{EA0C486E-E02A-4C24-9CAE-2EA122421420}</Project>
       <Name>SystemDotNet.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\ngl\NextGenLab.Chart\NextGenLab.Chart\NextGenLab.Chart.csproj">
+    <ProjectReference Include="..\NextGenLab.Chart\NextGenLab.Chart\NextGenLab.Chart.csproj">
       <Project>{ADCA3EFF-085B-4132-BF39-22448A2F4B13}</Project>
       <Name>NextGenLab.Chart</Name>
     </ProjectReference>
