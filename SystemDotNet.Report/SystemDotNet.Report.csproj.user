@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup Condition="">
+    <LastOpenVersion>8.0.50215</LastOpenVersion>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectTrust>0</ProjectTrust>
+    <PublishUrlHistory>P:\rf_systools\tools\SystemDotNet.Report\|Z:\websites\ngl\ClickOnce\SdnReport\|ASD\|http://www.nextgenlab.net/ClickOnce/SdnReport/|http://localhost/SdnReport/</PublishUrlHistory>
+    <InstallUrlHistory>\\hizz\pro\rf_systools\tools\SystemDotNet.Report\|http://www.nextgenlab.net/ClickOnce/SdnReport/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+</Project>

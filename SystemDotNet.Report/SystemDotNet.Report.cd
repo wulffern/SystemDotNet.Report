@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="SystemDotNet.Reporter.ColumnNode" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ColumnNode.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.FormLauncher" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormLauncher.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.MainForm1" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MainForm1.cs</FileName>
+      <HashCode>FwAwQEsCACAApQQAiGCAwYCTQCQCAAAZAmgBBAERAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.MultiSelect" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MultiSelect.cs</FileName>
+      <HashCode>AACAIgAAACAAAAAAAASAAAICAAAAAAgABAAAAQAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.NodeContextMenu" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NodeContextMenu.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.ReportContainer" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportContainer.cs</FileName>
+      <HashCode>AAAEAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.ReportNode" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportNode.cs</FileName>
+      <HashCode>BAAEQAAAACgTBAhgCQAIAAAAIBABCAAAAAAEIAgABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.SinglePlot">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Functions\SinglePlot.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAQAAEABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.SinglePlotBase" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Functions\SinglePlotBase.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAQAEBCAABAEAAAEAEAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.SinglePlotDifference">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Functions\SinglePlotDifference.cs</FileName>
+      <HashCode>AAAAAQAAACIIAAAAAAAAAACAAAAAAAAAAAQAAEABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.SinglePlotMultiple">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Functions\SinglePlotMultiple.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAEABoAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.SinglePlotXY" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Functions\SinglePlotXY.cs</FileName>
+      <HashCode>AAAAAQAAACIIAAAAAAAAAACAAAAAAAAAAAQAAEABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.SingleDynamicParameters" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Functions\SingleDynamicParameters.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAgAIgAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.SinglePsdPlot">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Functions\SinglePsdPlot.cs</FileName>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAAIQAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.Variables" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Variables.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAABAAAAAAAAIAAAACEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.XYSelectForm" Collapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>XYSelectForm.cs</FileName>
+      <HashCode>gAAAIwABACJYAAMAAACAAEICAAAgAAAAhAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemDotNet.Reporter.XYZSelectForm" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>XYZSelectForm.cs</FileName>
+      <HashCode>gAAAIwABAAIYABMAAACAAAICAAAAAAAAhAIAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" MajorVersion="1" MinorVersion="1" xmlns="http://www.microsoft.com/VisualStudio/EnterpriseTools/ClassDesigner/V1.1/DiagramSchema.xsd">
+  <View FilterFieldProperty="false" LastOpened="true" Name="Main">
+    <AbsoluteBounds X="0" Y="0" Height="8.5" Width="11" />
+    <Font Name="System" Size="0.1112" />
+    <Class Collapsed="false">
+      <AbsoluteBounds X="0.75" Y="0.5" Height="4.821148616075515" Width="1.5" />
+      <TypeIdentifier>
+        <FullName>SystemDotNet.SignalBase</FullName>
+        <FileName>SignalBase.cs</FileName>
+        <HashCode>AgBAAAAEQAAgAJAAhAQAAIQAAgAEJIAAAAAAAAACEAA=</HashCode>
+      </TypeIdentifier>
+    </Class>
+    <Class Collapsed="false">
+      <AbsoluteBounds X="3" Y="0.75" Height="2.6223584064841265" Width="2.25" />
+      <TypeIdentifier>
+        <FullName>SystemDotNet.Signal&lt;T&gt;</FullName>
+        <FileName>Signal.cs</FileName>
+        <HashCode>AAAAAAIAAAAAABAGAAAAAAAgAAAAIAAAAAAIAAEAAAA=</HashCode>
+      </TypeIdentifier>
+      <LollipopPosition Position="0.19999999999999929" />
+    </Class>
+    <Class Collapsed="false">
+      <AbsoluteBounds X="3" Y="3.75" Height="3.1223584064841265" Width="2.25" />
+      <TypeIdentifier>
+        <FullName>SystemDotNet.SignalCollection&lt;T&gt;</FullName>
+        <FileName>SignalCollection.cs</FileName>
+        <HashCode>AAQAAAAAAAAAEBAECIAAAAQgAAAAKAAAAAAAAAEAAAA=</HashCode>
+      </TypeIdentifier>
+    </Class>
+    <Class Collapsed="false">
+      <AbsoluteBounds X="5.75" Y="0.75" Height="2.6866054923335705" Width="2.25" />
+      <TypeIdentifier>
+        <FullName>SystemDotNet.SignalValueHolder&lt;K&gt;</FullName>
+        <FileName>SignalValueHolder.cs</FileName>
+        <HashCode>AAQAAAAAAAAAIAQABAAAAAAAAAAAAABAAAAgAAAAAAA=</HashCode>
+      </TypeIdentifier>
+      <NestedType xsi:type="DelegateShapeProxy" Collapsed="true">
+        <TypeIdentifier>
+          <FullName>SystemDotNet.SignalValueHolder&lt;K&gt;.ValueUpdatedHandler</FullName>
+        </TypeIdentifier>
+      </NestedType>
+    </Class>
+    <Enum Collapsed="false">
+      <AbsoluteBounds X="0.75" Y="5.5" Height="0.8693211110432939" Width="1.5" />
+      <TypeIdentifier>
+        <FullName>SystemDotNet.SensitiveType</FullName>
+        <FileName>Enums.cs</FileName>
+        <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAA=</HashCode>
+      </TypeIdentifier>
+    </Enum>
+  </View>
+</Diagram>
