@@ -63,16 +63,6 @@ namespace SystemDotNet.PostProcessing
                     String s = sr.ReadLine();
                     String bstring = byteToBinaryString(s);
                     
-//In mode 1 each word in the DataAcquisition module consists of: 
-//dataIn[55:0] =  {20'b0000_0000_0000_0000_0000, pbReady_s, fsVcoLate_s, fsVcoEarly_s, fsDivNA_s[4:0], adcCalCkc_s[2:0], adcPkdIn_s, Qz, Iz};
-//This is read out bytewise on SPI with LSbyte MSbit first. We get 7 bytes for each vector, like this:
-//byte 1 = Iz[7:0]
-//byte 2 = {Qz[3:0], Iz[11:8]}
-//byte 3 = Qz[11:4]
-//byte 4 = fsDivNA_s[3:0], adcCalCkc_s[2:0], adcPkdIn_s
-//byte 5 = {4’b0000, pbReady_s, fsVcoLate_s, fsVcoEarly_s, fsDivNA_s[4]}
-//byte 6 = 8’b0000_0000
-//byte 7 = 8’b0000_0000
 
                     
                    string I = bstring.Substring(8 * 1 + 4, 4) + bstring.Substring(8 * 0 + 0, 8);
