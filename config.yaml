@@ -1,0 +1,4 @@
+
+NextGenLab.Chart:
+  remote: git@github.com:wulffern/NextGenLab.Chart.git
+  revision: master
