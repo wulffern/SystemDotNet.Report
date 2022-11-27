@@ -1,13 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5506C52A-D8CA-4E3A-A4CA-1043896599F9}</ProjectGuid>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SystemDotNet.Reporter</RootNamespace>
     <AssemblyName>SdnReport</AssemblyName>
-    <WarningLevel>4</WarningLevel>
     <ApplicationIcon>gnome-dev-memory.ico</ApplicationIcon>
     <ManifestCertificateThumbprint>B3B4849031BB08C579FAE906202F3BA761346CAC</ManifestCertificateThumbprint>
     <ManifestKeyFile>SystemDotNet.Report_TemporaryKey.pfx</ManifestKeyFile>
@@ -15,13 +11,6 @@
     <TargetZone>LocalIntranet</TargetZone>
     <SignManifests>false</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
-    <TargetFrameworkProfile />
     <PublishUrl>P:\rf_systools\tools\SystemDotNet.Report\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Unc</InstallFrom>
@@ -43,22 +32,12 @@
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <ReleaseVersion>0.2</ReleaseVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Sdn.Release|AnyCPU' ">
     <OutputPath>..\Library.Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
     <LangVersion>
     </LangVersion>
@@ -71,7 +50,6 @@
     <IncrementalBuild>true</IncrementalBuild>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <WarningsAsErrors>
     </WarningsAsErrors>
   </PropertyGroup>
@@ -79,191 +57,11 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="ColumnNode.cs" />
-    <Compile Include="DataForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DataForm.Designer.cs">
-      <DependentUpon>DataForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FileFormatForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FileFormatForm.Designer.cs">
-      <DependentUpon>FileFormatForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FileFormats\ORBRegExReader.cs" />
-    <Compile Include="FileFormats\ORBReReaderDataTypes.cs" />
-    <Compile Include="FileFormats\RegExReaderData.cs" />
-    <Compile Include="FileFormats\RegExReaderFactory.cs" />
-    <Compile Include="FileFormats\TsvReader.cs" />
-    <Compile Include="Functions\SingleHistogram.cs" />
-    <Compile Include="Functions\SingleDynamicParameters.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SingleMomentPlot.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePlot.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePlotBase.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePlotDifference.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePlotMultiple.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePlotXY.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePlotXYDifferential.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePlotXYZ.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SinglePsdPlot.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SingleRMSPlot.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions\SPShowData.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="InputForms\InputFormBase.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InputForms\InputFormBase.Designer.cs">
-      <DependentUpon>InputFormBase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InputForms\InputFormFactory.cs" />
-    <Compile Include="InputForms\InputLineBase.cs">
+    <Compile Update="InputForms\InputLineBase.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="InputForms\InputLineBase.Designer.cs">
-      <DependentUpon>InputLineBase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PostProcessing\Delegates.cs" />
-    <Compile Include="PostProcessing\ORBChartDataReader.cs" />
-    <Compile Include="PostProcessing\PrintDynamicParameters.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="PostProcessing\ArrayMath.cs" />
-    <Compile Include="PostProcessing\Complex.cs" />
-    <Compile Include="PostProcessing\FFT.cs" />
-    <Compile Include="PostProcessing\Hamming.cs" />
-    <Compile Include="PostProcessing\Hanning.cs" />
-    <Compile Include="PostProcessing\IPlotMultiple.cs" />
-    <Compile Include="PostProcessing\IPlotSingle.cs" />
-    <Compile Include="PostProcessing\IPrintReport.cs" />
-    <Compile Include="PostProcessing\LinearRegression.cs" />
-    <Compile Include="PostProcessing\MathStatistics.cs" />
-    <Compile Include="PostProcessing\PlotPowerSpectralDensity.cs" />
-    <Compile Include="PostProcessing\PlotValueVsTime.cs" />
-    <Compile Include="PostProcessing\PlotXY.cs" />
-    <Compile Include="PostProcessing\PrintRMS.cs" />
-    <Compile Include="PostProcessing\PrintSnrFromRMS.cs" />
-    <Compile Include="PostProcessing\PrintStat.cs" />
-    <Compile Include="PostProcessing\Report.cs" />
-    <Compile Include="PostProcessing\WindowBase.cs" />
-    <Compile Include="FormLauncher.cs" />
-    <Compile Include="MainForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm1.Designer.cs">
-      <DependentUpon>MainForm1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MultiSelect.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MultiSelect.Designer.cs">
-      <DependentUpon>MultiSelect.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NodeContextMenu.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DataForm.resx">
-      <DependentUpon>DataForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FileFormatForm.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>FileFormatForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InputForms\InputFormBase.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>InputFormBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InputForms\InputLineBase.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>InputLineBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainForm1.resx">
-      <DependentUpon>MainForm1.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MultiSelect.resx">
-      <DependentUpon>MultiSelect.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources.resx">
-      <DependentUpon>Resources.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="XYSelectForm.resx">
-      <DependentUpon>XYSelectForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="XYZSelectForm.resx">
-      <DependentUpon>XYZSelectForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <Compile Include="ReportContainer.cs" />
-    <Compile Include="ReportNode.cs" />
-    <Compile Include="Resources.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Variables.cs" />
-    <Compile Include="XYSelectForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="XYSelectForm.Designer.cs">
-      <DependentUpon>XYSelectForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="XYZSelectForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <None Include="app.config" />
     <BaseApplicationManifest Include="Properties\app.manifest" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SystemDotNet.Report.cd" />
-    <None Include="SystemDotNet.Report_TemporaryKey.pfx" />
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="gnome-dev-memory.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
@@ -298,14 +96,19 @@
     </PublishFile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SystemDotNet.Core\SystemDotNet.Core.csproj">
-      <Project>{EA0C486E-E02A-4C24-9CAE-2EA122421420}</Project>
-      <Name>SystemDotNet.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NextGenLab.Chart\NextGenLab.Chart\NextGenLab.Chart.csproj">
-      <Project>{ADCA3EFF-085B-4132-BF39-22448A2F4B13}</Project>
-      <Name>NextGenLab.Chart</Name>
-    </ProjectReference>
+    <ProjectReference Include="..\SystemDotNet.Core\SystemDotNet.Core.csproj" />
+    <ProjectReference Include="..\NextGenLab.Chart\NextGenLab.Chart\NextGenLab.Chart.csproj" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ItemGroup>
+    <Compile Remove="Commands\CmdExit.cs" />
+    <Compile Remove="Commands\CmdOpen.cs" />
+    <Compile Remove="Commands\CmdPSD.cs" />
+    <Compile Remove="Commands\CmdShowPlots.cs" />
+    <Compile Remove="Functions\SingleResample.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.355802">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>

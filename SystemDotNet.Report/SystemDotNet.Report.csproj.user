@@ -16,4 +16,27 @@
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
     <ErrorReportUrlHistory />
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="DataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileFormatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InputForms\InputFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MultiSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="XYSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="XYZSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
