@@ -11,11 +11,11 @@
     <ApplicationIcon>gnome-dev-memory.ico</ApplicationIcon>
     <ManifestCertificateThumbprint>B3B4849031BB08C579FAE906202F3BA761346CAC</ManifestCertificateThumbprint>
     <ManifestKeyFile>SystemDotNet.Report_TemporaryKey.pfx</ManifestKeyFile>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
     <TargetZone>LocalIntranet</TargetZone>
     <SignManifests>false</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -60,8 +60,7 @@
     <OutputPath>..\Library.Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
-    <LangVersion>
-    </LangVersion>
+    <LangVersion>default</LangVersion>
     <ErrorReport>
     </ErrorReport>
     <BaseAddress>4194304</BaseAddress>
@@ -253,7 +252,6 @@
       <SubType>Form</SubType>
     </Compile>
     <None Include="app.config" />
-    <BaseApplicationManifest Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -261,6 +259,7 @@
     <None Include="SystemDotNet.Report.cd" />
     <None Include="SystemDotNet.Report_TemporaryKey.pfx" />
     <AppDesigner Include="Properties\" />
+    <None Include="Properties\app.manifest" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="gnome-dev-memory.ico" />

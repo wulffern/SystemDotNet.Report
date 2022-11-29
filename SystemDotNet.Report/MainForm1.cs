@@ -82,7 +82,7 @@ namespace SystemDotNet.Reporter
         [STAThread]
         static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
+            //Application.EnableVisualStyles();
 
 
             if (args.Length > 0)

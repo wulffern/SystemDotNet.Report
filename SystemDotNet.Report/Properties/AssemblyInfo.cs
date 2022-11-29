@@ -11,9 +11,9 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyTitle("SdnReport")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Carsten Wulff Software")]
 [assembly: AssemblyProduct("SdnReport")]
-[assembly: AssemblyCopyright("Copyright @  2004")]
+[assembly: AssemblyCopyright("Copyright @ 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -26,4 +26,4 @@ using System.Runtime.CompilerServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0")]
